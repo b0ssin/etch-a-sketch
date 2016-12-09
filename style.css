@@ -1,0 +1,46 @@
+h1, h4 {
+	text-align: center;
+	font-family: "Courier New";
+}
+h4 > a {
+	text-decoration: underline;
+	color: black;
+	clear: both;
+	font-weight: bold;
+}
+
+#nav {
+	display: flex;
+	margin: 30px 10px;
+	justify-content: center;
+
+
+}
+
+button {
+	margin: 0px auto;
+}
+
+
+#wrapper {
+  width: 960px;
+  height: 960px;
+  margin: 30px auto;
+}
+
+
+.row {
+	margin: 0px 0px;
+	width: 100%;
+}
+
+.box {
+  border: none;
+  background-color: black;
+  display: inline-block;
+  margin: 0px 0px;
+}
+
+.active {
+  background-color: #727272;
+}
